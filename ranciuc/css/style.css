@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Suez+One&display=swap');
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-color: #fafafa;
+	font-family: Trebuchet MS, Helvetica;
+}
+.container{
+	width: 80%;
+	height: 70px;
+	margin-left: 10%;
+}
+
+header{
+	width: 100%;
+	padding: 15px 0.5px 0 0.5%;
+    background: #fafafa;
+    float: left;
+    position: fixed;
+}
+header #logo a{
+text-decoration: none;
+color: #ccc;
+}
+
+header  #logo{
+	cursor: pointer;
+	color: #fff;
+	float: left;
+	width: 30%;
+}
+
+header #logo span{
+	font-size: 1.7em;
+	line-height: 45px;
+	margin-left: 40px;
+	font-family: 'Suez One', sans-serif;
+}
+
+header #logo span i{
+	margin-right: 5px;
+	color: blue;
+}
+
+header #about{
+	float: right;
+	width: 65%;
+	text-align: center;
+	font-size: 1em;
+	line-height: 40px;
+	margin-top: 10px;
+}
+
+header #about a{
+	text-decoration: none;
+	color: #ccc;
+	margin-left: 40px;
+}
+
+header #about a:hover{
+	opacity: 0.3;
+	text-decoration: underline;
+}
+
+
+.fixed{
+	z-index: 5000;
+	background-color: #fff;
+	border-bottom: 1px solid silver;
+}
+
+
+#top{
+	width: 100%;
+	height: 800px;
+	background-image: url('../img/01.jpg');
+	background-blend-mode: multiply;
+
+	background-size: cover;
+	text-align: center;
+	color: #eee;
+	font-size: 3em;
+}
+
+#top h1{
+	padding-top: 20%;
+}
+
+#top h3{
+	font-size: 30px;
+}
+
+#news{
+	width: 80%;
+	margin-left: 10%;
+    text-align: center;
+}
+
+#news>h2 {
+	padding-top: 100px;
+	font-family: 'Roboto', sans-serif;
+}
+#news>p{
+	margin-top: 20px;
+	font-size: 16px;
+	opacity: 0.5;
+}
+#news-block{
+	width: 30%;
+	float: left;
+	margin-left: 3.33%;
+	padding-top: 30px;
+}
+
+#news-block img{
+	width: 100%;
+}
+
+#news-block img:hover{
+	opacity: 0.6;
+}
+
+#news-block h2{
+	text-align: left;
+	padding-top: 25px;
+}
+
+#news-block p{
+	margin-top: 10px ;
+	opacity: 0.6;
+}
+
+#news-block a{
+float: left;
+margin-top: 25px;
+text-decoration: none;
+font-size: 12px;
+padding-left: 10px;
+color: #333;
+margin-bottom: 50px;
+}
+
+#news-block a:hover{
+	opacity: 0.6;
+	text-decoration: underline;
+}
+
+#news-img{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+#news-img img{
+width: 49%;
+float: left;
+}
+
+#news-img  #img03{
+	margin-left: 2%;
+}
+
+
+.services{
+	width: 80%;
+	margin-left: 10%;
+
+}
+
+.services #service{
+width: 33%;
+float: left;
+margin-top: 30px;
+padding-top: 20px;
+
+}
+.services .service2{
+	background-color: #6fbbd3;
+}
+
+.services #service img{
+	width: 50px;
+	opacity: 0.7;
+	margin-left: 10%;
+
+
+}
+.services #service:hover img{
+opacity: 0;
+transition: 1s ease-out;	 
+}
+
+.services #service:hover h2{
+margin-top: -10px;
+transition: 1s ease-out;	 
+}
+
+
+
+.services #service h2{
+	margin-left: 10%;
+	margin-top: 20px;
+	color: #333;
+}
+
+.services #service p{
+	margin: 10%;
+}
+
+figure{
+	margin-top: 100px;
+}
+
+.fixed-wrap{
+	text-align: center;
+	color: #fff;
+}
+
+.fixed-wrap #fixed{
+height: 300px;
+border-top: 4px solid #f0f0f0;
+border-bottom: 4px solid #f0f0f0;
+background: url(../img/02.jpg) no-repeat center center fixed;
+background-blend-mode: multiply;
+background-size: cover;
+margin-top: 1650px;
+}
+
+.fixed-wrap h1{
+	margin-top: 30px;
+}
+.fixed-wrap p{
+	margin-top: 30px;
+	width: 50%;
+	margin-left: 25%;
+	line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+#contacts{
+	margin-top: 30px;
+	width: 100%;
+	float: left;
+	padding-bottom: 40px;
+	padding-top: 70px;
+	border-top: 4px solid silver;
+	background: #f4f4f4;
+}
+
+#contacts h5{
+	font-size: 3em;
+	color: #333;
+}
+
+#form_input{
+	margin-top: 15px;
+	width: 35%;
+	font-size: 1.1em;
+}
+
+#form_input label{
+	color: #505050;
+	cursor: pointer;
+	font-size: 1.4em;
+}
+
+#form_input input, #form_input textarea{
+margin-bottom: 10px;
+width: 60%;
+padding: 10px 2%;
+border-radius: 7px;
+border: 1px solid silver;
+font-size: 0.9em;
+}
+
+#form_input input:focus, #form_input textarea:focus{
+border-color: #333;
+}
+
+#form_input textarea{
+	resize: none;
+}
+
+#form_input .btn{
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: #ec6550;
+	text-shadow: #454545 0 0 2px;
+	cursor: pointer;
+	color: #fff;
+	width: 70px;
+}
+
+#form_input .btn:hover{
+	opacity: 0.7;
+}
