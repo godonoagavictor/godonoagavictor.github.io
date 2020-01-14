@@ -12,3 +12,5 @@ Examples
 [ActiveBox](https://godonoagavictor.github.io/ActiveBox/ "Un exemplu de site cu HTML si CSS")
 
 [Surfing](https://godonoagavictor.github.io/Surfing/ "Un exemplu de site")
+
+[Tinyone](https://godonoagavictor.github.io/Tinyone/ "Un exemplu de site cu bootstrap si animate")
