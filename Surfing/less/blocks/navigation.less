@@ -1,0 +1,179 @@
+
+.navigation__wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+
+	@media (min-width: 1254px){
+	//display: flex;
+	flex-direction: row;
+	height: 128px;
+	//align-items: center;
+	}
+}
+
+
+.logo{
+
+	//margin-right: 190px;
+}
+
+.nav__logo__wrapper{
+width: 100%;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+
+	@media (min-width: 1254px){
+		margin-right: 190px;
+		width: auto;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+.navigation{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+width: 100%;
+
+list-style: none;
+margin: 0;
+padding: 0;
+font-family: 'League-Spartan', sans-serif;
+font-weight: 700;
+
+
+@media (min-width: 768px){
+          flex-direction: row;
+         justify-content:center;
+          width: auto;
+          margin-bottom: 0;
+		}
+
+
+
+	@media (min-width: 1254px){
+		    flex-direction: row;
+		    justify-content: flex-start;
+          margin-bottom: 0;
+		}
+
+}
+
+   
+
+
+
+
+
+.navigation__item{
+text-align: center;
+margin-bottom: 15px;
+
+ &:last-child{
+				margin-bottom: 0;
+				}
+
+	@media (min-width: 768px){
+          margin-right: 40px;
+		  	margin-bottom: 0;
+
+         &:last-child{
+				margin-right: 0;
+				}
+		}
+
+
+}
+
+.navigation__link{
+color: rgba(11, 12, 17, 0.9);
+font-size: 9px;
+
+line-height: 1;
+letter-spacing: 5.58px;
+text-transform: uppercase;
+text-decoration: none;
+
+}
+
+
+
+
+
+
+
+.header{
+	position:relative;
+	margin-bottom: 95px;
+}
+
+
+
+
+
+.site__description{
+
+width: auto;
+display: block;
+position: static;
+
+
+
+
+	@media (min-width: 1254px){
+	width: 12px;
+   height: 12px;
+	position: absolute;
+   right: 30px;
+   top: 170px;
+   z-index:999;
+  
+    	}
+
+	@media (min-width: 1400px){
+	right: -50px;
+	top: 58px;
+	}
+	
+}
+
+.site__description__content{
+position: static;
+color: rgba(11, 12, 17, 0.2);
+font-family: 'League-Spartan', sans-serif;
+font-size: 9px;
+font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 5.4px;
+	margin-bottom: 20px;
+
+
+	@media (min-width: 1254px){
+
+	transform: rotate(-90deg) translateX(-100%);
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform-origin: left top;
+	margin-bottom: 0;
+	color: #fff;
+    
+	}
+
+	@media (min-width: 1400px){
+    color: rgba(11, 12, 17, 0.2);
+	
+	}
+
+}
+
+
+
+
+
